@@ -1,1 +1,2 @@
 This is sample text file for git usage purpose
+THis one also sample push and pull purpose
