@@ -22,7 +22,7 @@ public class AccountLoader {
 	StringTokenizer stknzer=null;
 
 	String[] columnHeaders;
-	//This method can load accounts from flat file
+	//This method can load accounts from flat file to test
 	public void loadAccounts(){
 		BufferedReader br=null;
 
