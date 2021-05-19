@@ -37,7 +37,7 @@ public class AccountLoader {
 
 			StringTokenizer stknzer = new StringTokenizer(str, "|");
 			columnHeaders= new String[stknzer.countTokens()];
-			System.out.println("No of tokens "+stknzer.countTokens());
+			System.out.println("No of tokens: "+stknzer.countTokens());
 			while (stknzer.hasMoreTokens()) {
 				columnHeaders[startIndex++]=(String)stknzer.nextElement();
 			}
