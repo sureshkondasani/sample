@@ -41,7 +41,7 @@ public class AccountLoader {
 			while (stknzer.hasMoreTokens()) {
 				columnHeaders[startIndex++]=(String)stknzer.nextElement();
 			}
-			System.out.println("Hello "+columnHeaders[0]);
+			System.out.println("Hello :"+columnHeaders[0]);
 
 			while (str!=null) {
 				str=br.readLine();
@@ -50,7 +50,7 @@ public class AccountLoader {
 					populateAccounts(stknzer);
 				}
 			}
-			System.out.println("No of Accounts "+accList.size());
+			System.out.println("No of Accounts: "+accList.size());
 			System.out.println(accList.get(28).getEducationalInstitution());
 			loadToMap(accList);
 			
